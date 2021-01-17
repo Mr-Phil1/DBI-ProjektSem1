@@ -25,7 +25,6 @@ Oracle SQL Datamodeler  | 20.2.0.167.1538
 ![Logisches Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Logical.svg)
 ### Relational
 ![Relationales Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Relational_1.svg)
-![Relationales Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Relational_2.html)
 
 ## Erstellung des PDF
 Für die PDF Erstellung wurde auf den Parser Pandoc zurückgegriffen. Zu diesem Zeitpunkt wird nicht weiter auf die Funktionsweise von Pandoc eingehen. Mit folgendem Befehl wurde das ganze Dokument zu einem PDF umgewandelt:

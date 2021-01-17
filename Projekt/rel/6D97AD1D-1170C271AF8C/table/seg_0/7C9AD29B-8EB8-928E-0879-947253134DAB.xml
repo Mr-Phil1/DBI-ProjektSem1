@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="434A36B3-A75D-98F9-C785-369FF5D2180C" name="Produzent">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C9AD29B-8EB8-928E-0879-947253134DAB" name="Produzent">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>909C1188-5429-3BCC-E364-64F7531BDDDC</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="9F58EBCD-4BBA-7125-6BED-BE867A2EFA2E">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<Column name="ID" id="3D6DB0FF-578E-4D4F-6E4F-05BC3C0A8E23">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>5BE22E66-5F82-97B9-D966-C264E0AE4F83</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,23 +19,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4FE7C31A-E4A8-C69E-7B36-551234B7E719" referredColumn="2C9E897C-2F4E-A3F1-D7FF-2CB2DDC0E6EF"/>
+<colAssociation fkAssociation="E53D7097-BBA0-2959-D113-3AD95A68530E" referredColumn="34F38365-843B-D3A6-58BE-C260ACDCBEEE"/>
 </associations>
 </Column>
-<Column name="ID2" id="3F3E9563-4FCB-B228-D61D-ADB271DBD31A">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
-<generatorID>FA5A383A-A0F1-2C40-8717-E689272E3258</generatorID>
-<ownerDesignName>Projekt</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Vorname" id="5F01D467-BE8A-9C77-34AE-BBB3C480D1AD">
+<Column name="Vorname" id="74A9D1CA-4873-CE7E-9EBA-F613893F3F12">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-17 13:35:39 UTC</createdTime>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>73407E9E-D9A3-D4AE-26CC-6819CFF80725</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,9 +34,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Mittelname" id="BBEC160F-5311-36A5-ABBC-220E4079FF14">
+<Column name="Mittelname" id="A5BCEF6E-7E12-50F0-DB0B-6B4F1A4C9DF4">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-17 13:35:39 UTC</createdTime>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>65E081A8-B3E3-35F5-F8D4-5D2106EF3E48</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -58,9 +47,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nachname" id="5A11A3E3-2C27-A750-D178-D77680EBEB8F">
+<Column name="Nachname" id="275975CF-D87F-0241-E0F8-CEED689A5D37">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-17 13:35:39 UTC</createdTime>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>938E2FF8-9D66-583D-2A22-1D36E743C75E</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,9 +59,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Herkunftsland" id="B805E37E-1605-298D-E188-671CA029E265">
+<Column name="Herkunftsland" id="9405B781-94C4-DC14-2617-B9C8E1135504">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-17 13:35:39 UTC</createdTime>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>FA4D9593-B716-4239-9264-BD7C95D5D5AB</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -83,40 +72,51 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID1" id="6C1C7CE5-3086-7D19-1795-3B82FBA19FA3">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>FA5A383A-A0F1-2C40-8717-E689272E3258</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DCEF5E80-558A-E7B7-A4BD-7E4DD6A22AD9" name="Produzent_PK">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<ind_PK_UK id="CE6EE87A-5928-08CE-35B3-A8B95CC42039" name="Produzent_PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>9AD9A416-E207-D660-D12C-891EB17E4D98</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9F58EBCD-4BBA-7125-6BED-BE867A2EFA2E"/>
+<colUsage columnID="3D6DB0FF-578E-4D4F-6E4F-05BC3C0A8E23"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="21F006EA-0AD4-2389-CB74-59486533CE86" name="Produzent_PKv1">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<ind_PK_UK id="2DAAB832-68D8-1A2A-D6F0-93034B400ACB" name="Produzent_PKv1">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>752739C2-4428-D2F4-3EC1-0EAE75D4B8C7</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3F3E9563-4FCB-B228-D61D-ADB271DBD31A"/>
+<colUsage columnID="6C1C7CE5-3086-7D19-1795-3B82FBA19FA3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7E4BC2BB-76DA-26E4-7070-B94B4C623718" name="Produzent_Filmstar_FK">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<ind_PK_UK id="B04B5F83-4014-9686-B1BA-EE176278BA07" name="Produzent_Filmstar_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>C6B35265-5282-63FE-F146-455065845BD9</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9F58EBCD-4BBA-7125-6BED-BE867A2EFA2E"/>
+<colUsage columnID="3D6DB0FF-578E-4D4F-6E4F-05BC3C0A8E23"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

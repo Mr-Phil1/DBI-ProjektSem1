@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="434A36B3-A75D-98F9-C785-369FF5D2180C" name="Produzent">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
-<generatorID>909C1188-5429-3BCC-E364-64F7531BDDDC</generatorID>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCAB1F39-49A2-9BB7-46F3-8AECC800CF06" name="Regisseur">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>C9CE2032-3AAC-8D78-A118-36E8196473FA</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="9F58EBCD-4BBA-7125-6BED-BE867A2EFA2E">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<Column name="ID" id="B2ECCB55-7ADB-EB88-F13F-E53B1D91A7E3">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>5BE22E66-5F82-97B9-D966-C264E0AE4F83</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,23 +19,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4FE7C31A-E4A8-C69E-7B36-551234B7E719" referredColumn="2C9E897C-2F4E-A3F1-D7FF-2CB2DDC0E6EF"/>
+<colAssociation fkAssociation="1EAF1616-2627-C32E-4406-5B391941A8D4" referredColumn="34F38365-843B-D3A6-58BE-C260ACDCBEEE"/>
 </associations>
 </Column>
-<Column name="ID2" id="3F3E9563-4FCB-B228-D61D-ADB271DBD31A">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
-<generatorID>FA5A383A-A0F1-2C40-8717-E689272E3258</generatorID>
-<ownerDesignName>Projekt</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Vorname" id="5F01D467-BE8A-9C77-34AE-BBB3C480D1AD">
+<Column name="Vorname" id="D1F2EEFF-36B5-70CB-FDD0-F9695B0308A6">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-17 13:35:39 UTC</createdTime>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>73407E9E-D9A3-D4AE-26CC-6819CFF80725</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,9 +34,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Mittelname" id="BBEC160F-5311-36A5-ABBC-220E4079FF14">
+<Column name="Mittelname" id="FC2EF2D2-D0FF-D908-6E0A-F1B0BF681865">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-17 13:35:39 UTC</createdTime>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>65E081A8-B3E3-35F5-F8D4-5D2106EF3E48</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -58,9 +47,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nachname" id="5A11A3E3-2C27-A750-D178-D77680EBEB8F">
+<Column name="Nachname" id="31365FC4-8CFD-BDDF-6BDE-1A4ECDED172B">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-17 13:35:39 UTC</createdTime>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>938E2FF8-9D66-583D-2A22-1D36E743C75E</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,9 +59,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Herkunftsland" id="B805E37E-1605-298D-E188-671CA029E265">
+<Column name="Herkunftsland" id="4BE88982-02F9-5C5B-8114-114E28834030">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-17 13:35:39 UTC</createdTime>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>FA4D9593-B716-4239-9264-BD7C95D5D5AB</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -83,40 +72,51 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID1" id="8A723FAA-8CA4-5527-559C-42AB6FECC425">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>779D2FB1-82A6-9EEE-9765-E731B4F18955</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DCEF5E80-558A-E7B7-A4BD-7E4DD6A22AD9" name="Produzent_PK">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<ind_PK_UK id="92C4336E-B004-C739-0C0A-2D8E25D1D067" name="Regisseur_PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
 <generatorID>9AD9A416-E207-D660-D12C-891EB17E4D98</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9F58EBCD-4BBA-7125-6BED-BE867A2EFA2E"/>
+<colUsage columnID="B2ECCB55-7ADB-EB88-F13F-E53B1D91A7E3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="21F006EA-0AD4-2389-CB74-59486533CE86" name="Produzent_PKv1">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
-<generatorID>752739C2-4428-D2F4-3EC1-0EAE75D4B8C7</generatorID>
+<ind_PK_UK id="03DD688B-30BE-EDA7-2F3E-5D555E4ADD8B" name="Regisseur_PKv1">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>3297C942-5783-A149-3761-BBE10E32FE10</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3F3E9563-4FCB-B228-D61D-ADB271DBD31A"/>
+<colUsage columnID="8A723FAA-8CA4-5527-559C-42AB6FECC425"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7E4BC2BB-76DA-26E4-7070-B94B4C623718" name="Produzent_Filmstar_FK">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
-<generatorID>C6B35265-5282-63FE-F146-455065845BD9</generatorID>
+<ind_PK_UK id="0BC91806-F207-DDD8-9D7A-E3258029E7A5" name="Regisseur_Filmstar_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>18083737-1C60-30BD-339F-76E0F34E4CA9</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9F58EBCD-4BBA-7125-6BED-BE867A2EFA2E"/>
+<colUsage columnID="B2ECCB55-7ADB-EB88-F13F-E53B1D91A7E3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
