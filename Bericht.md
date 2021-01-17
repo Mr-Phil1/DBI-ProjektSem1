@@ -19,7 +19,7 @@ Oracle SQL Datamodeler  | 20.2.0.167.1538
 
 
 
-## Bilder des Entwurs
+## Bilder des Entwurfes
 
 ### Logisch
 ![Logisches Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Logical.svg)
