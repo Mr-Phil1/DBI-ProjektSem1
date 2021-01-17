@@ -7,6 +7,9 @@
 - [Verwendete Technologien](#verwendete-technologien)
 - [Durchführung](#durchführung)
 - [Darstellung](#darstellung)
+ - [Logisch](#logisch)
+ - [Relational](#relational)
+- [Literatur](#literatur)
 ---
 
 ## Einleitung
