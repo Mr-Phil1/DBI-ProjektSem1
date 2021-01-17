@@ -1,5 +1,7 @@
 # *Projektbericht Entity-Relationship-Modell für eine persönliche Filmsammlung*   
 
+</br>
+
 ## Inhaltsverzeichnis
 * [Einleitung](#einleitung)
 * [Verwendete Technologien](#verwendete-technologien)
