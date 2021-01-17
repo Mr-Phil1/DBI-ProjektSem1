@@ -54,9 +54,7 @@ Mit Hilfe der Barred Relationship sichern wir zusätzlich ab, dass ein Film nur 
 
 * Mit Hilfe der [Deutschen Wikipedia](https://de.wikipedia.org)
   * [https://de.wikipedia.org/wiki/Entity-Relationship-Modell](https://de.wikipedia.org/wiki/Entity-Relationship-Modell)
-
-* Die Projek-Datei (diese muss zusammen mit dem Ordner Projekt heruntergeladen bzw. geöffnet werden):
-  * [Projekt-File](https://github.com/Mr-Phil1/DBI-ProjektSem1/blob/main/Projekt.dmd)
-  * [Projekt-Directory](https://github.com/Mr-Phil1/DBI-ProjektSem1/tree/main/Projekt)
+* Die Projek-Datei:
+  * [Projekt-File](https://github.com/Mr-Phil1/DBI-ProjektSem1/blob/main/Projekt.zip)
 ---
 Copyright (c) 2021 Copyright [mr-phil1](https://github.com/Mr-Phil1) + [Vercetti90](https://gist.github.com/Vercetti90) All Rights Reserved.
