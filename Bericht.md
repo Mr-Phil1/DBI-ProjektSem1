@@ -33,8 +33,9 @@ Unter anderem werden Supertyps bzw. Subtypes in der Entität Filmstar verwendet.
 Eine Person kann gleichzeit Schauspieler, Regisseur und Produzent sein (z.B.: Denzel Washington).  
 Da es sich in diesem Projekt um eine persönliche Filmsammlung handelt, haben wir zudem eine Entität Verleihhistorie und eine Entität Person eingebaut.
 Diese beiden stehen zusammen mit der Entität Film Titel in einer Beziehung. Dies ermöglicht den Nutzer auf einen Blick zu sehen, wer wann welchen Film ausgeliehen hat.  
-Mit Hilfe der Barred Relationship sichern wir zusätzlich ab, dass ein Film nur zu einem bestimmten Datum ausgeliehen werden kann. Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt, und ein Film nur einmal vorhanden ist.
+Mit Hilfe der Barred Relationship sichern wir zusätzlich ab, dass ein Film nur einmal pro bestimmten Datum ausgeliehen werden kann. Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt, und ein Film nur einmal vorhanden ist.
 
+</br>
 
 ## Darstellung
 ### Logisch
