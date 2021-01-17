@@ -10,12 +10,16 @@ Oracle SQL Datamodeler  | 20.2.0.167.1538
 ## Durchführung
 
 Das ER-Modell dient vor allem der logischen Darstellung und sollte so übersichtlich wie möglich gestaltet werden.
-Aus diesem Grund, beginnen die Bezeichnungen der Attribute mit Großbuchstaben. Das dargestellte ER-Modell dient der Veranschaulichung, wie die Speicherung einer persönlichen Filmsammlung im logischen Modell umgesetzt werden kann. Es enthält zahlreiche Entitäten mit ihren Eigenschaften und Relationships untereinander.  
+Aus diesem Grund, beginnen die Bezeichnungen der Attribute mit Großbuchstaben. Das dargestellte ER-Modell dient der Veranschaulichung, wie die Speicherung einer persönlichen Filmsammlung im logischen Modell umgesetzt werden kann. 
+Es enthält zahlreiche Entitäten mit ihren Eigenschaften und Relationships untereinander.  
 Das Modell stellt alle gespeicherten Filme der Sammlung dar. Es besteht die Möglichkeit, einen Film, je nach verwendeteten Medium ( z.B.: DVD, VHS, Blu Ray, etc.) zu speichern.  
 Desweiteren können die Filme nach Länge, Sprache, Erscheinungsjahr oder Genre unterteilt werden.
 Eine Besonderheit stellt die Entität IMDB dar. Dies ermöglicht den Nutzer, Filme nach Bewertung zu speichern bzw. auszuwählen.  
-Unter anderem werden Supertyps bzw. Subtypes in der Entität Filmstar verwendet. Dies hat folgenden Hintergrund. Eine Person kann gleichzeit Schauspieler, Regisseur und Produzent sein (z.B.: Denzel Washington). Aus diesem Grund wurde folgende Darstellung gewählt.   
-Da es sich in diesem Projekt um eine persönliche Filmsammlung handelt, haben wir zudem eine Entität Verleihhistorie und eine Entität Person eingebaut. Diese beiden stehen zusammen mit der Entität Film Titel in einer Beziehung. Dies ermöglicht den Nutzer auf einen Blick zu sehen, wer wann welchen Film ausgeliehen hat.   Mit Hilfe der Barred Relationship, sichern wir zusätzlich ab, das ein Film nur zu einem bestimmten Datum ausgeliehen werden kann. Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt, und ein Film nur einmal vorhanden ist.
+Unter anderem werden Supertyps bzw. Subtypes in der Entität Filmstar verwendet. Dies hat folgenden Hintergrund.
+Eine Person kann gleichzeit Schauspieler, Regisseur und Produzent sein (z.B.: Denzel Washington). Aus diesem Grund wurde folgende Darstellung gewählt.   
+Da es sich in diesem Projekt um eine persönliche Filmsammlung handelt, haben wir zudem eine Entität Verleihhistorie und eine Entität Person eingebaut.
+Diese beiden stehen zusammen mit der Entität Film Titel in einer Beziehung. Dies ermöglicht den Nutzer auf einen Blick zu sehen, wer wann welchen Film ausgeliehen hat.  
+Mit Hilfe der Barred Relationship, sichern wir zusätzlich ab, das ein Film nur zu einem bestimmten Datum ausgeliehen werden kann. Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt, und ein Film nur einmal vorhanden ist.
 
 
 
