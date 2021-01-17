@@ -1,7 +1,5 @@
 ## *Projektbericht Entity-Relationship-Modell für eine persönliche Filmsammlung*
-</br>
 
----
 ## Inhaltsverzeichnis
 * [Einleitung](#einleitung)
 * [Verwendete Technologien](#verwendete-technologien)
@@ -61,5 +59,4 @@ Mit Hilfe der Barred Relationship sichern wir zusätzlich ab, dass ein Film nur 
   * [Projekt-File](https://github.com/Mr-Phil1/DBI-ProjektSem1/blob/main/Projekt.dmd)
   * [Projekt-Directory](https://github.com/Mr-Phil1/DBI-ProjektSem1/tree/main/Projekt)
 ---
-[Top](#projektbericht)  
 Copyright (c) 2021 Copyright [mr-phil1](https://github.com/Mr-Phil1) + [Vercetti90](https://gist.github.com/Vercetti90) All Rights Reserved.
