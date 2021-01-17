@@ -13,9 +13,6 @@ Technologien-Name | Verwendete Version
 ------------ | -------------
 Ubuntu |Ubuntu 20.04 LTS
 Oracle SQL Datamodeler  | 20.2.0.167.1538
-tar | tar (GNU tar) 1.30
-rsync | version 3.1.3  protocol version 31
-pandoc | pandoc 2.2.1,  pandoc-types 1.17.5.1, texmath 0.11.1, skylighting 0.7.5
 
 
 ## Durchführung
