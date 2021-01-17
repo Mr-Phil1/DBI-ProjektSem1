@@ -24,8 +24,9 @@ Oracle SQL Datamodeler  | 20.2.0.167.1538
 
 * Mit Hilfe der [Deutschen Wikipedia](https://de.wikipedia.org)
   * [https://de.wikipedia.org/wiki/Entity-Relationship-Modell](https://de.wikipedia.org/wiki/Entity-Relationship-Modell)
-* Die Projek-Datei:
+* Die Projek-Datei (diese muss zusammen mit dem Ordner Projekt heruntergeladen bzw. geöffnet werden):
   * [Projekt-File](https://github.com/Mr-Phil1/DBI-ProjektSem1/blob/main/Projekt.dmd)
+  * [Projekt-Directory](https://github.com/Mr-Phil1/DBI-ProjektSem1/tree/main/Projekt)
 ---
 
 Copyright (c) 2021 Copyright mr-phil1 All Rights Reserved.
