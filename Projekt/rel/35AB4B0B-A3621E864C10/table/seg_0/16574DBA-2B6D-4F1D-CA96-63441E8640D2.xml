@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16574DBA-2B6D-4F1D-CA96-63441E8640D2" name="Medium">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>F46D1439-1AF4-56F2-2A23-7FFE10E8A52D</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="2FB58741-387A-6EA4-36DB-A1CCE765C4CA">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>BD30BDDA-6481-EBBE-ED47-DBFD941E66BA</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Art" id="FB8B8E44-069C-629C-1ABB-28A48716CF22">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>DE703DA9-8D07-4223-6890-14FC7EF1730D</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6101242-A407-B8F6-8B47-233C22964AC9" name="Medium_PK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>4F3AFB82-9255-61D9-E75D-E8A4B9F3331D</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FB58741-387A-6EA4-36DB-A1CCE765C4CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

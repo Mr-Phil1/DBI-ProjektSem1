@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74C8C921-A466-4F80-0F5D-DB222D6B311D" name="Filmstar">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:43:45 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributeInherType>All atributes</attributeInherType>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="5BE22E66-5F82-97B9-D966-C264E0AE4F83">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:44:16 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vorname" id="73407E9E-D9A3-D4AE-26CC-6819CFF80725">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:44:16 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mittelname" id="65E081A8-B3E3-35F5-F8D4-5D2106EF3E48">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:44:16 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nachname" id="938E2FF8-9D66-583D-2A22-1D36E743C75E">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:44:16 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Herkunftsland" id="FA4D9593-B716-4239-9264-BD7C95D5D5AB">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:44:16 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9AD9A416-E207-D660-D12C-891EB17E4D98" name="Filmstar PK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:27:32 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5BE22E66-5F82-97B9-D966-C264E0AE4F83</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B2D91CC-16D0-B321-880E-7983B9211BB8" name="Sprache">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:13:09 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="5AC02693-B4A0-010A-0B47-E7EE0CFF7A48">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:23:28 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sprache" id="75F97EA4-95DC-1B1E-B086-1220D2BDD091">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:23:46 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48AC155A-0EC4-F903-D435-DA2922634109" name="Sprache PK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:23:44 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5AC02693-B4A0-010A-0B47-E7EE0CFF7A48</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
