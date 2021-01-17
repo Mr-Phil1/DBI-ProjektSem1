@@ -1,5 +1,5 @@
 # Projektbericht
-***Entity-Relationship-Modell für eine persönliche Filmsammlung***  
+**Entity-Relationship-Modell für eine persönliche Filmsammlung**  
 </br>
 
 ---
