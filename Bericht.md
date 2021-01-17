@@ -1,11 +1,13 @@
 # Projektbericht: Entity-Relationship-Modell für eine persönliche Filmsammlung
 </br>
 
+---
 ## Inhaltsverzeichnis
 - [Einleitung](#einleitung)
 - [Verwendete Technologien](#verwendete-technologien)
 - [Durchführung](#durchführung)
 - [Darstellung](#darstellung)
+---
 
 ## Einleitung
 Das Entity-Relationship-Modell – ER-Modell oder ERM, dient der Darstellung von Dingen, Gegenständen, Objekten und der Beziehungen bzw. Zusammenhänge zwischen diesen. Dieses Modell dient dazu, im Rahmen der semantischen Datenmodellierung den in einem gegebenen Kontext (z. B. einem Projekt zur Erstellung eines Informationssystems) relevanten Ausschnitt der realen Welt zu bestimmen und darzustellen. Das ER-Modell besteht im Wesentlichen aus einer Grafik (ER-Diagramm) sowie einer Beschreibung der darin verwendeten Elemente. Ein ER-Modell dient sowohl in der konzeptionellen Phase der Anwendungsentwicklung der Verständigung zwischen Anwendern und Entwicklern (dabei wird nur das Was behandelt, d. h. fachlich-sachliche Gegebenheiten, nicht das Wie, z. B. die Technik) als auch in der Implementierungsphase als Grundlage für das Design der – meist relationalen – Datenbank.
