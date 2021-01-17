@@ -1,0 +1,217 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EBEA950-CACC-8986-87BC-BAF6F880A32B" name="Film_Details">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>E178316E-FC38-8B91-28E9-2A5957B7B968</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Film_Titel_ID" id="4806111E-34B6-D62C-379A-09B84B34489E">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>B2BF1888-7DC7-28BF-3DDB-FFF4F80DF5BC</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FE9EF56-C682-DCEE-0B37-287CB5B4491A" referredColumn="D7270306-51D0-75D1-C9BF-15B4D56AF8D8"/>
+</associations>
+</Column>
+<Column name="Sprache_ID" id="D90A1A4C-3A61-79C5-5BDC-8EF5771A8DDF">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>B0406B89-8526-7576-A28B-3BC40E717D1E</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C927528-4B4F-08C6-6516-D08975A4FB85" referredColumn="AC3745B7-1F9A-F133-D983-6B68FB2C7900"/>
+</associations>
+</Column>
+<Column name="Jahr_ID" id="085EE038-1851-93DD-B6B8-49376EEA1CDD">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>0F2A8F71-91A8-6870-EDEF-C3EC0B3448A6</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22FB2848-9143-CC90-9A1B-CE08C603C2B5" referredColumn="21978C97-2D45-50B1-1238-273144120018"/>
+</associations>
+</Column>
+<Column name="IMDB_ID" id="A4BA1074-8ABF-1BC2-032A-7D3839F6015C">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>15EF7367-30DB-C957-9A1D-2DD6E1FD3F8C</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD4E6C6F-12CA-AE67-96AC-8F605A2FCEB0" referredColumn="8F7B7EAF-C6AB-6679-5D4F-4434A757A1DA"/>
+</associations>
+</Column>
+<Column name="Genre_ID" id="2854CD6E-BEEB-980A-B48F-42D81851D7F6">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>7EBE4510-C6C5-50D8-B8C0-1DE4451888A9</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55D32AC7-0CF5-3354-4553-EE1CB343707F" referredColumn="A462B29C-0564-3D52-9416-CA2AA3458FC3"/>
+</associations>
+</Column>
+<Column name="Dauer_ID" id="3B9CD9A2-DF29-C569-8418-1B82637459E8">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>CF67D01B-6028-020D-4362-71DD3D7F11CD</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C7D53C6-520C-53A8-6160-C4556353D23E" referredColumn="E00C5EE9-E87F-EA9A-D2E5-5272096B99FC"/>
+</associations>
+</Column>
+<Column name="ID_Film" id="B6CFEC20-210F-349F-CB61-19F05976FA09">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:58:56 UTC</createdTime>
+<generatorID>752B78F6-9D9C-ED4E-4A87-EB939F156940</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filmstar_ID" id="D142C0B7-F1B7-B424-24B0-CFDF748D84AA">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:35:39 UTC</createdTime>
+<generatorID>D262948F-1684-B3D3-8F63-CC85887AC6BE</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83557882-1B03-42C4-7A60-2AC93EAFE63B" referredColumn="2C9E897C-2F4E-A3F1-D7FF-2CB2DDC0E6EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7F69CAA-3E06-6D3E-A532-4469CCD35EB7" name="Film_Details_PK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>DFA209B3-30C4-2BDB-81ED-BC29A630E3C1</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6CFEC20-210F-349F-CB61-19F05976FA09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="603143B2-48D5-69C8-6208-068B6267E9D2" name="Film_Details_Sprache_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>8F63268C-68A9-18D5-DEE7-B56BCDDFB10B</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D90A1A4C-3A61-79C5-5BDC-8EF5771A8DDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B9F9C77-D35D-4D85-FFF4-C159A2EC87F6" name="Film_Details_Jahr_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>3ACD52B9-4A1A-7C08-FFEC-D8A934710566</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="085EE038-1851-93DD-B6B8-49376EEA1CDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEFA12D6-F2D2-D4C0-89B2-955AC1147643" name="Film_Details_IMDB_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>0ACB97F0-860A-9D78-2A8E-334DD65B2CB9</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4BA1074-8ABF-1BC2-032A-7D3839F6015C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAEF1651-C5A3-89B2-205E-E4D232457E1D" name="Film_Details_Genre_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>5B626F80-3300-E70C-3B3B-1E6208D9C971</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2854CD6E-BEEB-980A-B48F-42D81851D7F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A9A6641-E0CC-45D1-100F-C11435382C59" name="Film_Details_Dauer_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>C57F6DD3-0A03-B2B8-EE46-B224CC5D996A</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B9CD9A2-DF29-C569-8418-1B82637459E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC973EFF-DD16-16F5-5442-C7FE9C963347" name="Film_Details_Film_Titel_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>3D964B5E-A5A9-FDDC-31B5-392FD65C4894</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4806111E-34B6-D62C-379A-09B84B34489E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D59673D3-3AEB-E2B1-EFB8-D48A53EF534C" name="Film_Details_Filmstar_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:35:39 UTC</createdTime>
+<generatorID>81313001-1CB6-4499-B24B-BDAA2117E64C</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D142C0B7-F1B7-B424-24B0-CFDF748D84AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

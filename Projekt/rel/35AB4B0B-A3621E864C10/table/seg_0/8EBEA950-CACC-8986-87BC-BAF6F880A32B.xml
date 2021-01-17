@@ -83,6 +83,21 @@
 <colAssociation fkAssociation="55D32AC7-0CF5-3354-4553-EE1CB343707F" referredColumn="A462B29C-0564-3D52-9416-CA2AA3458FC3"/>
 </associations>
 </Column>
+<Column name="Filmstar_ID" id="43E52821-D600-F3DF-1AE3-0FBBA67BB3C6">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>D262948F-1684-B3D3-8F63-CC85887AC6BE</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="528D26B5-F2F9-7B54-1312-4DA94CCDE9B2" referredColumn="2C9E897C-2F4E-A3F1-D7FF-2CB2DDC0E6EF"/>
+</associations>
+</Column>
 <Column name="Dauer_ID" id="3B9CD9A2-DF29-C569-8418-1B82637459E8">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-17 12:54:50 UTC</createdTime>
@@ -106,21 +121,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Filmstar_ID" id="D142C0B7-F1B7-B424-24B0-CFDF748D84AA">
-<createdBy>Philipp</createdBy>
-<createdTime>2021-01-17 13:35:39 UTC</createdTime>
-<generatorID>D262948F-1684-B3D3-8F63-CC85887AC6BE</generatorID>
-<ownerDesignName>Projekt</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="83557882-1B03-42C4-7A60-2AC93EAFE63B" referredColumn="2C9E897C-2F4E-A3F1-D7FF-2CB2DDC0E6EF"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -180,6 +180,17 @@
 <colUsage columnID="2854CD6E-BEEB-980A-B48F-42D81851D7F6"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="30A296D0-E57F-A071-E2B2-A5A942A580F4" name="Film_Details_Filmstar_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>81313001-1CB6-4499-B24B-BDAA2117E64C</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43E52821-D600-F3DF-1AE3-0FBBA67BB3C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="6A9A6641-E0CC-45D1-100F-C11435382C59" name="Film_Details_Dauer_FK">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-17 12:54:50 UTC</createdTime>
@@ -200,17 +211,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4806111E-34B6-D62C-379A-09B84B34489E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D59673D3-3AEB-E2B1-EFB8-D48A53EF534C" name="Film_Details_Filmstar_FK">
-<createdBy>Philipp</createdBy>
-<createdTime>2021-01-17 13:35:39 UTC</createdTime>
-<generatorID>81313001-1CB6-4499-B24B-BDAA2117E64C</generatorID>
-<ownerDesignName>Projekt</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="D142C0B7-F1B7-B424-24B0-CFDF748D84AA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

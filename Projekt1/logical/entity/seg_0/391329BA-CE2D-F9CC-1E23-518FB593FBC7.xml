@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="391329BA-CE2D-F9CC-1E23-518FB593FBC7" name="Jahr">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:13:00 UTC</createdTime>
+<ownerDesignName>Projekt1</ownerDesignName>
+<engineerTo>
+<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="86EFB1D8-3A04-65AA-1EE6-3930DE16B98D">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:22:38 UTC</createdTime>
+<ownerDesignName>Projekt1</ownerDesignName>
+<engineerTo>
+<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Erscheinung " id="2422ED20-3B14-22E3-B464-609D80B39854">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:22:59 UTC</createdTime>
+<ownerDesignName>Projekt1</ownerDesignName>
+<engineerTo>
+<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="61F91DAB-4AAB-C2C7-4382-18F60153CEF7" name="Jahr PK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:22:46 UTC</createdTime>
+<ownerDesignName>Projekt1</ownerDesignName>
+<engineerTo>
+<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86EFB1D8-3A04-65AA-1EE6-3930DE16B98D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FE33E10-3E1E-10A8-54C4-D7515118C3BA" name="Episode">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:42:21 UTC</createdTime>
+<ownerDesignName>Projekt1</ownerDesignName>
+<engineerTo>
+<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

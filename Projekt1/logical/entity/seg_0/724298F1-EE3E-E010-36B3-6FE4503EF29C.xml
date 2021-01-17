@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="724298F1-EE3E-E010-36B3-6FE4503EF29C" name="Verleihhistorie">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:08:27 UTC</createdTime>
+<ownerDesignName>Projekt1</ownerDesignName>
+<engineerTo>
+<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ausleih Datum" id="D47ED6D3-34E4-1964-F1F0-D2900D36DF25">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:10:56 UTC</createdTime>
+<ownerDesignName>Projekt1</ownerDesignName>
+<engineerTo>
+<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rückgabe Datum" id="EF9EB818-DE00-A4D5-ED4B-1E6046C6CA0B">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:11:12 UTC</createdTime>
+<ownerDesignName>Projekt1</ownerDesignName>
+<engineerTo>
+<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="6C3EA31A-74DA-4221-B868-62FC0ADB734F">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:12:54 UTC</createdTime>
+<generatorID>C3565832-7198-290D-C431-15DEF77921DE</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<engineerTo>
+<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<referedAttribute>669E564A-CF86-C9A5-15F0-6CDCEDCDF7CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="9DE9A9CA-DE25-AFD9-678B-F3AF6D2A0CE7">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:13:45 UTC</createdTime>
+<generatorID>B31667A7-8ED9-B1D0-82FB-AC1C539B6845</generatorID>
+<ownerDesignName>Projekt1</ownerDesignName>
+<engineerTo>
+<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<referedAttribute>B27124CE-92EF-558A-2FD7-8B81987012A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4B6081F-078F-5330-BBAF-667CD4E6D6B8" name="Verleihhistorie PK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:10:58 UTC</createdTime>
+<ownerDesignName>Projekt1</ownerDesignName>
+<engineerTo>
+<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9DE9A9CA-DE25-AFD9-678B-F3AF6D2A0CE7</attributeRef>
+<attributeRef>D47ED6D3-34E4-1964-F1F0-D2900D36DF25</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

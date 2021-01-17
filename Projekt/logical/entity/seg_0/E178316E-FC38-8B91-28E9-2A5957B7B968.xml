@@ -1,10 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E178316E-FC38-8B91-28E9-2A5957B7B968" name="SerienDetails">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E178316E-FC38-8B91-28E9-2A5957B7B968" name="Film Details">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-06 17:17:30 UTC</createdTime>
 <ownerDesignName>Projekt</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -21,7 +20,6 @@
 <createdTime>2021-01-17 12:57:58 UTC</createdTime>
 <ownerDesignName>Projekt</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <use>0</use>
@@ -33,7 +31,6 @@
 <generatorID>3D964B5E-A5A9-FDDC-31B5-392FD65C4894</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <referedAttribute>B27124CE-92EF-558A-2FD7-8B81987012A3</referedAttribute>
@@ -48,7 +45,6 @@
 <generatorID>8F63268C-68A9-18D5-DEE7-B56BCDDFB10B</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <referedAttribute>5AC02693-B4A0-010A-0B47-E7EE0CFF7A48</referedAttribute>
@@ -63,7 +59,6 @@
 <generatorID>3ACD52B9-4A1A-7C08-FFEC-D8A934710566</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <referedAttribute>86EFB1D8-3A04-65AA-1EE6-3930DE16B98D</referedAttribute>
@@ -78,7 +73,6 @@
 <generatorID>0ACB97F0-860A-9D78-2A8E-334DD65B2CB9</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <referedAttribute>8AF69F61-19D0-AC00-BF94-C1CF74384225</referedAttribute>
@@ -93,7 +87,6 @@
 <generatorID>5B626F80-3300-E70C-3B3B-1E6208D9C971</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <referedAttribute>E366591A-8F2F-6B4F-346A-0918CEF99A00</referedAttribute>
@@ -108,7 +101,6 @@
 <generatorID>81313001-1CB6-4499-B24B-BDAA2117E64C</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <referedAttribute>5BE22E66-5F82-97B9-D966-C264E0AE4F83</referedAttribute>
@@ -123,7 +115,6 @@
 <generatorID>C57F6DD3-0A03-B2B8-EE46-B224CC5D996A</generatorID>
 <ownerDesignName>Projekt</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <referedAttribute>E7245CA8-6E05-83BE-968E-B0BD00FFB9A7</referedAttribute>
@@ -138,8 +129,8 @@
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-17 11:24:34 UTC</createdTime>
 <ownerDesignName>Projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="false"/>
 </engineerTo>
 <pk>true</pk>
