@@ -26,8 +26,9 @@ pandoc | pandoc 2.2.1,  pandoc-types 1.17.5.1, texmath 0.11.1, skylighting 0.7.5
 ## Bilder des Entwurs
 
 ### Logisch
-![]()
+![Logisches Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Logical.svg?token=AIXSKYDKYFMAB22KJB6NN53AAQ5E4)
 ### Relational
+![Relationales Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Relational_1.svg?token=AIXSKYAB5HLUW5A3TPI25F3AAQ5HY)
 
 ## Erstellung des PDF
 Für die PDF Erstellung wurde auf den Parser Pandoc zurückgegriffen. Zu diesem Zeitpunkt wird nicht weiter auf die Funktionsweise von Pandoc eingehen. Mit folgendem Befehl wurde das ganze Dokument zu einem PDF umgewandelt:
