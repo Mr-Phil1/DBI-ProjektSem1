@@ -10,7 +10,8 @@ Oracle SQL Datamodeler  | 20.2.0.167.1538
 ## Durchführung
 
 Das ER-Modell dient vor allem der logischen Darstellung und sollte so übersichtlich wie möglich gestaltet werden.
-Aus diesem Grund, beginnen die Bezeichnungen der Attribute mit Großbuchstaben. Das dargestellte ER-Modell dient der Veranschaulichung, wie die Speicherung einer persönlichen Filmsammlung im logischen Modell umgesetzt werden kann.
+Aus diesem Grund, beginnen die Bezeichnungen der Attribute mit Großbuchstaben.
+Das dargestellte ER-Modell dient der Veranschaulichung, wie die Speicherung einer persönlichen Filmsammlung im logischen Modell umgesetzt werden kann.
 Es enthält zahlreiche Entitäten mit ihren Eigenschaften und Relationships untereinander.
 Das Modell stellt alle gespeicherten Filme der Sammlung dar.  
 Es besteht die Möglichkeit, einen Film, je nach verwendeteten Medium ( z.B.: DVD, VHS, Blu Ray, etc.) zu speichern.  
@@ -24,11 +25,11 @@ Diese beiden stehen zusammen mit der Entität Film Titel in einer Beziehung. Die
 Mit Hilfe der Barred Relationship, sichern wir zusätzlich ab, das ein Film nur zu einem bestimmten Datum ausgeliehen werden kann. Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt, und ein Film nur einmal vorhanden ist.
 
 
-
-### Logisch Darstellung
+## Darstellung
+### Logische
 ![Logisches Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Durchführung.jpg)
 
-### Relational Darstellung
+### Relationale
 ![Relationales Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Relational_2.svg)
 
 
