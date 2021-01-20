@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Film" id="65DF96D5-1F41-2B10-448E-E221689286DB">
+<Attribute name="ID_Serie" id="65DF96D5-1F41-2B10-448E-E221689286DB">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-20 15:40:48 UTC</createdTime>
 <generatorID>B36AC511-2253-DCB8-F199-35CDFD92BEB5</generatorID>

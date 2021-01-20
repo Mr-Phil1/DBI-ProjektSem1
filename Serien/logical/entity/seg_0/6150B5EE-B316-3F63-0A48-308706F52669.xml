@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Film" id="40E80E1E-C64C-7AD0-4D86-CF45BF0A9B88">
+<Attribute name="ID_Serie" id="40E80E1E-C64C-7AD0-4D86-CF45BF0A9B88">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-20 15:16:37 UTC</createdTime>
 <generatorID>F5E8C5F1-2429-9DCB-6E2C-9AAC57B40CCD</generatorID>

@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Film" id="FFCC79E8-0B7E-8013-2495-D8A134F09B6E">
+<Attribute name="ID_Serie" id="FFCC79E8-0B7E-8013-2495-D8A134F09B6E">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-20 14:47:22 UTC</createdTime>
 <generatorID>C806ABB9-E018-3271-5D6D-D9A53F07B463</generatorID>
@@ -51,19 +51,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID" id="4CE667A4-F818-8183-D9B8-67F4E03734F1">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-20 14:47:57 UTC</createdTime>
-<generatorID>501FC4DE-1E43-D684-7557-0B35C21466B3</generatorID>
-<ownerDesignName>Serien</ownerDesignName>
-<engineerTo>
-<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
-</engineerTo>
-<referedAttribute>669E564A-CF86-C9A5-15F0-6CDCEDCDF7CB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

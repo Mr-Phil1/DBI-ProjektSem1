@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81868656-2446-59ED-D339-B8D8D2C0B422" name="Details_Serie">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<generatorID>B8BE667C-56B1-DC22-CB2C-47419CCF192D</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Serie_ID_Serie" id="4D06DA8F-252D-786B-B88C-D298470C0E65">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<generatorID>921C7AA9-4527-F2BD-A6B9-91227BB52FD9</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50B53C85-B73E-BAE7-5CA0-5FFA93582C51" referredColumn="B6CFEC20-210F-349F-CB61-19F05976FA09"/>
+</associations>
+</Column>
+<Column name="Staffel_Staffel_ID" id="F154FCE9-04F7-7836-A762-FCA33F1B5991">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D7108DE-8A90-11E6-D46D-32A06CB52729" referredColumn="FE9212AA-9B28-E62E-123A-10129C28FAB7"/>
+</associations>
+</Column>
+<Column name="Episode_Episode_ID" id="E4634F24-CBB2-A609-9DEF-29FFF9CF4BC6">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="880833EE-371A-876B-E1F4-248FB35E12DE" referredColumn="DDE092E7-91C9-4117-FF4B-B544AC5E82B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="154B3377-5257-8BFB-1AC2-D2F302A4B16E" name="Details_Serie_PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<generatorID>F4EF82F3-AEDE-C963-201C-7B94FC2916DC</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="9C190F6C-D483-90F9-8C4D-315E9F6798C3" name="Details_Serie_Staffel_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<generatorID>1BCC1132-DFBC-A3EE-8660-47E8EAF65A6C</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F154FCE9-04F7-7836-A762-FCA33F1B5991"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4DC562A-D11A-0B1E-47CE-402DDB81F1DE" name="Details_Serie_Episode_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<generatorID>DCDAA3E9-6388-9753-A727-5167363612B1</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4634F24-CBB2-A609-9DEF-29FFF9CF4BC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CB7D73F-69B6-E8BF-85BB-EA3B43AF823D" name="Details_Serie_Serie_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<generatorID>FFBA09C2-AB4C-FB8B-B6C2-4539FF5E220B</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D06DA8F-252D-786B-B88C-D298470C0E65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

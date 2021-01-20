@@ -30,6 +30,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID1" id="55E27431-48EF-1756-A7E4-55EF803965B2">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<generatorID>3D2D241C-651C-0192-B9E5-74D0EF77CA6C</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F12B73CC-ADF2-223D-5AFB-C0A597A4C75D" name="Dauer_PK">

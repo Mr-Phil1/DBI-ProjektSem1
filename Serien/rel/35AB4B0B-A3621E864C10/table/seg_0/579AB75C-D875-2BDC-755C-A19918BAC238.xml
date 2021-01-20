@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="579AB75C-D875-2BDC-755C-A19918BAC238" name="Episode">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<generatorID>6CBD2E25-4C8A-4EAC-CC6F-178D135968ED</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D195EBB2-4EE3-768B-A9C1-46F81BBBCD90">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<generatorID>605E1B36-EE5E-8405-7868-178C0F29F309</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Episode_ID" id="DDE092E7-91C9-4117-FF4B-B544AC5E82B0">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3035CD1-5A14-70E2-3006-A83DA9617B1F" name="Episode_PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:46:06 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DDE092E7-91C9-4117-FF4B-B544AC5E82B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
