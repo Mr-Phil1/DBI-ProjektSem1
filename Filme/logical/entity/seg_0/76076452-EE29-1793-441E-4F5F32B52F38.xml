@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76076452-EE29-1793-441E-4F5F32B52F38" name="Dauer">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-07 14:52:42 UTC</createdTime>
+<ownerDesignName>Filme</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="E7245CA8-6E05-83BE-968E-B0BD00FFB9A7">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-07 14:52:49 UTC</createdTime>
+<ownerDesignName>Filme</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Länge" id="68840F9F-C4BB-24EA-DACD-9437B29940F1">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-07 14:53:04 UTC</createdTime>
+<ownerDesignName>Filme</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18C01FA3-18AF-AFC9-CEA0-81CE5DEDA29E" name="Dauer PK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-07 14:52:56 UTC</createdTime>
+<ownerDesignName>Filme</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E7245CA8-6E05-83BE-968E-B0BD00FFB9A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

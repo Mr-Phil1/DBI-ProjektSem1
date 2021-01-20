@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC234667-8C6D-B386-51C2-D955E0455DAD" name="Film_Titel">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>F2A2361D-2C17-CEC0-8CDD-58BA8BD85F50</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="77D7B3AF-423E-C176-36DA-9EF29AA6C5D0">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>B27124CE-92EF-558A-2FD7-8B81987012A3</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Deutscher_Titel" id="12000316-D472-F9C4-8C94-70E36F604A40">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>8DFF1088-F769-B07C-1483-FAF8F23CF438</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Original_Titel" id="0B0FA715-BF27-5430-CBF4-47D1B74B1DFF">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>D572D543-7E10-52D7-25A0-97789B7322B5</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD7926F7-5264-4E53-FC0C-3C42DBBCA9C1" name="Film_Titel_PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>3CC39751-DC02-0DE9-EA6C-832731D3DFD2</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77D7B3AF-423E-C176-36DA-9EF29AA6C5D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

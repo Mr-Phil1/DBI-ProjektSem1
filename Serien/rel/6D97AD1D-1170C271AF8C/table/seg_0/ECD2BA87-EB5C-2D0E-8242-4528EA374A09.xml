@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECD2BA87-EB5C-2D0E-8242-4528EA374A09" name="Medium">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>F46D1439-1AF4-56F2-2A23-7FFE10E8A52D</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="50FB3095-83F2-42E0-88B2-1909CD647641">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>BD30BDDA-6481-EBBE-ED47-DBFD941E66BA</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Art" id="52538A23-5093-1DE2-E074-2ACC95DA9C67">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>DE703DA9-8D07-4223-6890-14FC7EF1730D</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8A2B3F6-9395-F150-19F3-A74860E11BA2" name="Medium_PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>4F3AFB82-9255-61D9-E75D-E8A4B9F3331D</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50FB3095-83F2-42E0-88B2-1909CD647641"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93D9E2AA-C32C-31DF-1A39-C962278333B4" containerWithKeyObject="8DAE67B2-5F97-3887-47A7-B927D3D31741" localFKIndex="AFB42F88-5CEC-5309-A28F-22E95D9842BD" name="Film_Details_Jahr_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>3ACD52B9-4A1A-7C08-FFEC-D8A934710566</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<referredTableLongName>Jahr</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>104B7470-27C0-F597-65B4-13E50C4E2DE3</referredTableID>
+<keyObject>0DA0287E-025F-642D-DDA5-7A28C1441EEB</keyObject>
+<referredKeyID>0DA0287E-025F-642D-DDA5-7A28C1441EEB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

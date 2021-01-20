@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9CEEBCC-75C3-EF86-1BDC-669A78AEE13D" name="Verleihhistorie">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>724298F1-EE3E-E010-36B3-6FE4503EF29C</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ausleih_Datum" id="78A8A87F-41EE-8C3B-BAFB-642E276A09EE">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>D47ED6D3-34E4-1964-F1F0-D2900D36DF25</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rückgabe_Datum" id="249FD877-D4B5-FACA-BF07-5475E849E14B">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>EF9EB818-DE00-A4D5-ED4B-1E6046C6CA0B</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person_ID" id="7362459B-7F05-4AD7-D33F-2192940AD20F">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>6C3EA31A-74DA-4221-B868-62FC0ADB734F</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2C23740-179A-513A-E08A-8C7335F904A5" referredColumn="326247F9-7692-0EF2-3DBD-671282D999A2"/>
+</associations>
+</Column>
+<Column name="Film_Titel_ID" id="249D81A7-2B7A-9A8D-53A8-E8D2645A9D57">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>9DE9A9CA-DE25-AFD9-678B-F3AF6D2A0CE7</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2ED48D8D-0DDC-C6E3-E331-80F4C806F9D7" referredColumn="77D7B3AF-423E-C176-36DA-9EF29AA6C5D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7C9652E-6AB2-86A2-59B9-14393005EEB7" name="Verleihhistorie_PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>F4B6081F-078F-5330-BBAF-667CD4E6D6B8</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249D81A7-2B7A-9A8D-53A8-E8D2645A9D57"/>
+<colUsage columnID="78A8A87F-41EE-8C3B-BAFB-642E276A09EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD47DF73-D445-F4D6-4000-ADE8B2D92CBB" name="Verleihhistorie_Person_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>C3565832-7198-290D-C431-15DEF77921DE</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7362459B-7F05-4AD7-D33F-2192940AD20F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="307A64AC-71D0-F8C9-8002-3FFB7B68E132" name="Verleihhistorie_Film_Titel_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-17 13:36:21 UTC</createdTime>
+<generatorID>B31667A7-8ED9-B1D0-82FB-AC1C539B6845</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249D81A7-2B7A-9A8D-53A8-E8D2645A9D57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
