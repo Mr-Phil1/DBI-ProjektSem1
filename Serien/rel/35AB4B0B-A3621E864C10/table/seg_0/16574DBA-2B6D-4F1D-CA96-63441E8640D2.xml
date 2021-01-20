@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Art" id="FB8B8E44-069C-629C-1ABB-28A48716CF22">
+<Column name="Typ" id="FB8B8E44-069C-629C-1ABB-28A48716CF22">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-17 12:54:50 UTC</createdTime>
 <generatorID>DE703DA9-8D07-4223-6890-14FC7EF1730D</generatorID>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="780C439B-BCEF-473A-208F-42F5B9B5F081" name="Relation_25">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<ownerDesignName>Filme</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Regisseur_ID" id="A246DC78-1865-70EF-AB75-6BB1ACEEB13C">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<ownerDesignName>Filme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA4B1CC5-62B8-3C66-705D-02EDAD89DF06" referredColumn="75F13F12-5D50-05BD-22FA-594B08EC5F5A"/>
+</associations>
+</Column>
+<Column name="Film_ID_Film" id="46FDA4D7-E495-CA24-E33F-DE15472B8C49">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<ownerDesignName>Filme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="466B1FF2-35B5-F224-F8C1-BFFE2AF06CA6" referredColumn="B6CFEC20-210F-349F-CB61-19F05976FA09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B83A69B9-ECBB-AFA3-7945-BBB16E92B032" name="Relation_25_PK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<ownerDesignName>Filme</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A246DC78-1865-70EF-AB75-6BB1ACEEB13C"/>
+<colUsage columnID="46FDA4D7-E495-CA24-E33F-DE15472B8C49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A4E0CF2-7E6E-CBBC-0DA6-D72386B5FECA" name="Relation_25_Regisseur_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>81313001-1CB6-4499-B24B-BDAA2117E64C</generatorID>
+<ownerDesignName>Filme</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A246DC78-1865-70EF-AB75-6BB1ACEEB13C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A470E767-31DA-8B24-1C23-521C3FFBB02D" name="Relation_25_Film_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>81313001-1CB6-4499-B24B-BDAA2117E64C</generatorID>
+<ownerDesignName>Filme</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46FDA4D7-E495-CA24-E33F-DE15472B8C49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

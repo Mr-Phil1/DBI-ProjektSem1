@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9CE2032-3AAC-8D78-A118-36E8196473FA" name="Regisseur">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:12:53 UTC</createdTime>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>74C8C921-A466-4F80-0F5D-DB222D6B311D</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="779D2FB1-82A6-9EEE-9765-E731B4F18955">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:21:11 UTC</createdTime>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3297C942-5783-A149-3761-BBE10E32FE10" name="Regisseur PK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:21:26 UTC</createdTime>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>779D2FB1-82A6-9EEE-9765-E731B4F18955</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

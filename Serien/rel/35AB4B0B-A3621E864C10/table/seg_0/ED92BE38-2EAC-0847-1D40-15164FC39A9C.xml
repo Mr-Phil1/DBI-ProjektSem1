@@ -37,6 +37,7 @@
 <ownerDesignName>Serien</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -55,8 +56,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Film_ID_Film" id="35333420-D486-2CD3-8864-F494F0E036E7">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>FFCC79E8-0B7E-8013-2495-D8A134F09B6E</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0F7AC071-0EAA-0775-2AA7-62A6D70B0C67" referredColumn="D7270306-51D0-75D1-C9BF-15B4D56AF8D8"/>
+<colAssociation fkAssociation="096E5B3E-54EF-47B3-EC01-DA7F0EC751D2" referredColumn="B6CFEC20-210F-349F-CB61-19F05976FA09"/>
 </associations>
 </Column>
 </columns>
@@ -85,15 +98,15 @@
 <colUsage columnID="88644B2F-4F14-F9CE-C750-BF6B9007F518"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F2440B43-2D2B-BC4B-C5B3-13220835D010" name="Verleihhistorie_Film_Titel_FK">
+<ind_PK_UK id="61C860B3-7245-8BF0-5FF2-0DCA7426D855" name="Verleihhistorie_Film_FK">
 <createdBy>tommy</createdBy>
-<createdTime>2021-01-17 12:54:50 UTC</createdTime>
-<generatorID>B31667A7-8ED9-B1D0-82FB-AC1C539B6845</generatorID>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>C806ABB9-E018-3271-5D6D-D9A53F07B463</generatorID>
 <ownerDesignName>Serien</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D57113AD-2AE0-D22E-4344-01B3A0A01FC2"/>
+<colUsage columnID="35333420-D486-2CD3-8864-F494F0E036E7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

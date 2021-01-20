@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A1AC9962-2665-F4CC-0E3B-E1BD2BB6D658" containerWithKeyObject="876BC259-004B-1525-5575-20B05023B25C" localFKIndex="6D4CAAC4-C645-973B-1238-5F8721017D2C" name="Details_Medium_Film_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>769A5E82-ADFE-EE3B-AB40-B2DFE04F9511</generatorID>
+<ownerDesignName>Filme</ownerDesignName>
+<referredTableLongName>Film</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8EBEA950-CACC-8986-87BC-BAF6F880A32B</referredTableID>
+<keyObject>F7F69CAA-3E06-6D3E-A532-4469CCD35EB7</keyObject>
+<referredKeyID>F7F69CAA-3E06-6D3E-A532-4469CCD35EB7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Film</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

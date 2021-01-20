@@ -4,7 +4,6 @@
 <createdTime>2021-01-07 14:52:42 UTC</createdTime>
 <ownerDesignName>Serien</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -16,12 +15,11 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="E7245CA8-6E05-83BE-968E-B0BD00FFB9A7">
-<createdBy>tommy</createdBy>
-<createdTime>2021-01-07 14:52:49 UTC</createdTime>
+<Attribute name="ID" id="3D2D241C-651C-0192-B9E5-74D0EF77CA6C">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-20 16:11:24 UTC</createdTime>
 <ownerDesignName>Serien</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,7 +32,6 @@
 <createdTime>2021-01-07 14:53:04 UTC</createdTime>
 <ownerDesignName>Serien</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,13 +45,13 @@
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-07 14:52:56 UTC</createdTime>
 <ownerDesignName>Serien</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E7245CA8-6E05-83BE-968E-B0BD00FFB9A7</attributeRef>
+<attributeRef>3D2D241C-651C-0192-B9E5-74D0EF77CA6C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

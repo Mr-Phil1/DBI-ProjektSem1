@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AEB57CE-AAF5-3ED5-366C-AF3E06E70628" name="Dauer">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>76076452-EE29-1793-441E-4F5F32B52F38</generatorID>
+<ownerDesignName>Filme</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E00C5EE9-E87F-EA9A-D2E5-5272096B99FC">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>E7245CA8-6E05-83BE-968E-B0BD00FFB9A7</generatorID>
+<ownerDesignName>Filme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Länge" id="076A3001-28F7-B6DF-3937-67086D9A87E8">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>68840F9F-C4BB-24EA-DACD-9437B29940F1</generatorID>
+<ownerDesignName>Filme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F12B73CC-ADF2-223D-5AFB-C0A597A4C75D" name="Dauer_PK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>18C01FA3-18AF-AFC9-CEA0-81CE5DEDA29E</generatorID>
+<ownerDesignName>Filme</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E00C5EE9-E87F-EA9A-D2E5-5272096B99FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

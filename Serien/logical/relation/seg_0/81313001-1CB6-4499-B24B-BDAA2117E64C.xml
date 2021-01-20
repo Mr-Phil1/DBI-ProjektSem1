@@ -4,14 +4,13 @@
 <createdTime>2021-01-07 14:44:20 UTC</createdTime>
 <ownerDesignName>Serien</ownerDesignName>
 <engineerTo>
-<item key="6D97AD1D-52CE-D3A3-E423-1170C271AF8C" value="true"/>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <sourcePk>9AD9A416-E207-D660-D12C-891EB17E4D98</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>74C8C921-A466-4F80-0F5D-DB222D6B311D</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>E178316E-FC38-8B91-28E9-2A5957B7B968</targetEntity>

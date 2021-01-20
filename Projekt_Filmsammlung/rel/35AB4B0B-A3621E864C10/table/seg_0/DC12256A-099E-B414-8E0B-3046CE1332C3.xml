@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC12256A-099E-B414-8E0B-3046CE1332C3" name="Schauspieler">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>E52C4A1F-2BAE-006C-BB31-DB20E330DD98</generatorID>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BC463B83-1AEB-A585-1021-A9DA0B9001BF">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>5BE22E66-5F82-97B9-D966-C264E0AE4F83</generatorID>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C49512C6-7F27-7317-E168-B5D47EB64422" referredColumn="2C9E897C-2F4E-A3F1-D7FF-2CB2DDC0E6EF"/>
+</associations>
+</Column>
+<Column name="ID1" id="A7382183-98FE-749A-21DC-883434E23FEC">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>2900E081-C53D-FB62-8C5C-DF384B50EFD4</generatorID>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vorname" id="276600DB-2AEB-B585-195B-EE90FD07D0B3">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>73407E9E-D9A3-D4AE-26CC-6819CFF80725</generatorID>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mittelname" id="D3E4909E-ACE1-A72E-CBF2-F387F0BDF988">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>65E081A8-B3E3-35F5-F8D4-5D2106EF3E48</generatorID>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nachname" id="7314258D-F0E2-A99C-00E8-AA6EE4133310">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>938E2FF8-9D66-583D-2A22-1D36E743C75E</generatorID>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Herkunftsland" id="C0373083-DAD0-E10F-2134-115392868E7A">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>FA4D9593-B716-4239-9264-BD7C95D5D5AB</generatorID>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFEB1076-5FCD-1175-CFBC-3C83974831C7" name="Schauspieler_PK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>9AD9A416-E207-D660-D12C-891EB17E4D98</generatorID>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC463B83-1AEB-A585-1021-A9DA0B9001BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE4ED14A-4AC9-613F-FA26-54411CD69D93" name="Schauspieler_PKv1">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>EF43468B-A0F1-9F38-CDAF-56B2AF74E4AE</generatorID>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7382183-98FE-749A-21DC-883434E23FEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0490AC9-95ED-4F37-74C9-0BDE19B03330" name="Schauspieler_Filmstar_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-17 12:54:50 UTC</createdTime>
+<generatorID>419A5E76-E3CD-0515-4113-E85ABAE9F7EE</generatorID>
+<ownerDesignName>Projekt_Filmsammlung</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC463B83-1AEB-A585-1021-A9DA0B9001BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

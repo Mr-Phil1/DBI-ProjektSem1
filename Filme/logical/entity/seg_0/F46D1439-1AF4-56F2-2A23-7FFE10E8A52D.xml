@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F46D1439-1AF4-56F2-2A23-7FFE10E8A52D" name="Medium">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 15:22:51 UTC</createdTime>
+<ownerDesignName>Filme</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="BD30BDDA-6481-EBBE-ED47-DBFD941E66BA">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:04:10 UTC</createdTime>
+<ownerDesignName>Filme</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Typ" id="DE703DA9-8D07-4223-6890-14FC7EF1730D">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:47:31 UTC</createdTime>
+<ownerDesignName>Filme</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F3AFB82-9255-61D9-E75D-E8A4B9F3331D" name="DVD PK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-06 16:04:16 UTC</createdTime>
+<ownerDesignName>Filme</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD30BDDA-6481-EBBE-ED47-DBFD941E66BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="876BC259-004B-1525-5575-20B05023B25C" name="Details_Medium">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>38CC9752-2609-0A33-87E7-39B6380124D3</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Film_ID_Film" id="F4DB753E-AC2D-216D-E37E-9C4244BC5074">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>816403B6-0A7F-268A-E964-14553EF80DCA</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1AC9962-2665-F4CC-0E3B-E1BD2BB6D658" referredColumn="B6CFEC20-210F-349F-CB61-19F05976FA09"/>
+</associations>
+</Column>
+<Column name="Medium_ID" id="E25B7191-FDC5-1CD8-0CDC-6E66804223BE">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>A2744911-9979-3979-9E75-391B66C8DC70</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="298490FF-D2F7-A71D-E70F-197D67031860" referredColumn="2FB58741-387A-6EA4-36DB-A1CCE765C4CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D4CAAC4-C645-973B-1238-5F8721017D2C" name="Details_Medium_Film_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>769A5E82-ADFE-EE3B-AB40-B2DFE04F9511</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4DB753E-AC2D-216D-E37E-9C4244BC5074"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E6C06EA-0FBD-D090-515F-AE18919E63CF" name="Details_Medium_Medium_FK">
+<createdBy>tommy</createdBy>
+<createdTime>2021-01-20 15:57:44 UTC</createdTime>
+<generatorID>BFE1AA9C-9FBF-65CE-B3D1-091953AD4798</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E25B7191-FDC5-1CD8-0CDC-6E66804223BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
