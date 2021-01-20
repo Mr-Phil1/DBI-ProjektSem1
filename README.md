@@ -43,14 +43,23 @@ Mit Hilfe der Barred Relationship sichern wir zusätzlich ab, dass ein Film nur 
 </br>
 
 ## Darstellung
-### Logisch
-![Logisches Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Durchführung.jpg)
+### Filme
+#### Logisch
+![Logisches Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Filme/Durchführung.jpg)
 
 </br>
 
-### Relational
-![Relationales Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Relational_2.svg)
+#### Relational
+![Relationales Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Filme/Relational.jpg)
 
+### Serien
+#### Logisch
+![Logisches Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Serien/Durchführung.jpg)
+
+</br>
+
+#### Relational
+![Relationales Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Serien/Relational_2.svg)
 
 ## Literatur
 
