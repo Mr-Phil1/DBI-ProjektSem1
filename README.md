@@ -52,10 +52,11 @@ Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt und
 #### Logisch
 ![Logisches Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Filme/Logisches-Modell.jpg)
 
-</br>
 
 #### Relational
 ![Relationales Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Filme/Relationales-Modell.jpg)
+
+</br>
 
 ### Serien
 #### Logisch
@@ -73,6 +74,7 @@ Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt und
 * Mit Hilfe der [Deutschen Wikipedia](https://de.wikipedia.org)
   * [Entity-Relationship-Modell](https://de.wikipedia.org/wiki/Entity-Relationship-Modell)
   * [Normalisierung (Datenbank)](https://de.wikipedia.org/wiki/Normalisierung_(Datenbank))  
+  
 * Die Projek-Dateien:
   * [Filme](https://github.com/Mr-Phil1/DBI-ProjektSem1/blob/main/zip/Filme.zip)
   * [Serien](https://github.com/Mr-Phil1/DBI-ProjektSem1/blob/main/zip/Serie.zip)
