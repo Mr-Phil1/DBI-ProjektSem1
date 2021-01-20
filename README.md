@@ -42,7 +42,8 @@ Unter anderem werden Supertyps bzw. Subtypes in der Entität Filmstar verwendet.
 Eine Person kann gleichzeit Schauspieler, Regisseur und Produzent sein (z.B.: Denzel Washington).  
 Da es sich in diesem Projekt um eine persönliche Filmsammlung handelt, haben wir zudem eine Entität Verleihhistorie und eine Entität Person eingebaut.
 Diese beiden stehen zusammen mit der Entität Film Titel in einer Beziehung. Dies ermöglicht den Nutzer auf einen Blick zu sehen, wer wann welchen Film ausgeliehen hat.  
-Mit Hilfe der Barred Relationship sichern wir zusätzlich ab, dass ein Film nur einmal pro bestimmten Datum ausgeliehen werden kann. Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt, und ein Film nur einmal vorhanden ist.
+Mit Hilfe der Barred Relationship sichern wir zusätzlich ab, dass ein Film nur einmal pro bestimmten Datum ausgeliehen werden kann.  
+Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt und ein Film nur einmal vorhanden ist.
 
 </br>
 
@@ -63,13 +64,17 @@ Mit Hilfe der Barred Relationship sichern wir zusätzlich ab, dass ein Film nur 
 </br>
 
 #### Relational
-![Relationales Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Serien//Relationales-Modell.jpg)
+![Relationales Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Serien/Relationales-Modell.jpg)
+
+## Diskusion
 
 ## Literatur
 
 * Mit Hilfe der [Deutschen Wikipedia](https://de.wikipedia.org)
-  * [https://de.wikipedia.org/wiki/Entity-Relationship-Modell](https://de.wikipedia.org/wiki/Entity-Relationship-Modell)
-* Die Projek-Datei:
-  * [Projekt-File](https://github.com/Mr-Phil1/DBI-ProjektSem1/blob/main/Projekt.zip)
+  * [Entity-Relationship-Modell](https://de.wikipedia.org/wiki/Entity-Relationship-Modell)
+  * [Normalisierung (Datenbank)](https://de.wikipedia.org/wiki/Normalisierung_(Datenbank))  
+* Die Projek-Dateien:
+  * [Filme](https://github.com/Mr-Phil1/DBI-ProjektSem1/blob/main/zip/Filme.zip)
+  * [Serien](https://github.com/Mr-Phil1/DBI-ProjektSem1/blob/main/zip/Serie.zip)
 ---
 Copyright (c) 2021 Copyright [mr-phil1](https://github.com/Mr-Phil1) + [Vercetti90](https://gist.github.com/Vercetti90) All Rights Reserved.
