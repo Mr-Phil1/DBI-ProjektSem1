@@ -1,3 +1,10 @@
+---
+title: Projektbericht für ein Entity-Relationship-Modell (Persönliche Filmsammlung)
+author: Mr. Phil, Vercetti90
+rights: Nah
+language: de-AT
+keywords: MySQL; Datenbank; Filmsammlung
+---
 # *Projektbericht Entity-Relationship-Modell für eine persönliche Filmsammlung*   
 
 </br>
@@ -43,7 +50,8 @@ Eine Person kann gleichzeit Schauspieler, Regisseur und Produzent sein (z.B.: De
 Da es sich in diesem Projekt um eine persönliche Filmsammlung handelt, haben wir zudem eine Entität Verleihhistorie und eine Entität Person eingebaut.
 Diese beiden stehen zusammen mit der Entität Film Titel in einer Beziehung. Dies ermöglicht den Nutzer auf einen Blick zu sehen, wer wann welchen Film ausgeliehen hat.  
 Mit Hilfe der Barred Relationship sichern wir zusätzlich ab, dass ein Film nur einmal pro bestimmten Datum ausgeliehen werden kann.  
-Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt und ein Film nur einmal vorhanden ist.
+Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt und ein Film nur einmal vorhanden ist.  
+Auf Grund der Einschränkung des ER-Modells auf den Bereich der Speicherung von Filmen, haben wir uns dazu entschiden ein weiteres ER-Diagrammm, speziell für Serien, zu gestallten.  
 
 </br>
 
@@ -67,14 +75,8 @@ Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt und
 #### Relational
 ![Relationales Design](https://raw.githubusercontent.com/Mr-Phil1/DBI-ProjektSem1/main/Bilder/Serien/Relationales-Modell.jpg)
 
-</br>
-
-## Diskusion
-Auf Grund der Einschränkung des ER-Modells auf den Bereich der Speicherung von Filmen, haben wir uns dazu entschiden ein weiteres ER-Diagrammm, speziell für Serien, zu gestallten.  
-
 
 ## Literatur
-
 * Mit Hilfe der [Deutschen Wikipedia](https://de.wikipedia.org)
   * [Entity-Relationship-Modell](https://de.wikipedia.org/wiki/Entity-Relationship-Modell)
   * [Normalisierung (Datenbank)](https://de.wikipedia.org/wiki/Normalisierung_(Datenbank))  
