@@ -7,8 +7,12 @@
 * [Verwendete Technologien](#verwendete-technologien)
 * [Durchführung](#durchführung)
 * [Darstellung](#darstellung)
-    * [Logisch](#logisch)
-    * [Relational](#relational)
+    * [Filme](#darstellung)
+        * [Logisch](#logisch)
+        * [Relational](#relational)
+    * [Serien](#darstellung)
+        * [Logisch](#logisch)
+        * [Relational](#relational)
 * [Literatur](#literatur)
 ---
 
