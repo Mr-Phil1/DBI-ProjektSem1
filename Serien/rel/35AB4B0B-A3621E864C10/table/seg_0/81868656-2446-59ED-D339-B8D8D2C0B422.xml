@@ -56,9 +56,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="880833EE-371A-876B-E1F4-248FB35E12DE" referredColumn="D195EBB2-4EE3-768B-A9C1-46F81BBBCD90"/>
-</associations>
 </Column>
 <Column name="ID1" id="48DC8BFA-E0DF-2A59-28A9-437470616001">
 <createdBy>Philipp</createdBy>
@@ -71,8 +68,35 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staffel_ID" id="D12A28AA-4C75-DC88-E50B-CDCB85631474">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:50:10 UTC</createdTime>
+<generatorID>ABE77706-ADD7-9387-AEDB-7F999B7AFD23</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4D7108DE-8A90-11E6-D46D-32A06CB52729" referredColumn="A0E43FD4-589A-6911-86C0-23D4C556E0AF"/>
+<colAssociation fkAssociation="0815084E-210A-B3F9-AA54-C01C212325FF" referredColumn="30BE37C5-1FFA-7BF5-BD1A-BBD278AAE5D2"/>
+</associations>
+</Column>
+<Column name="Episode_ID" id="7FB36EBA-D8E2-79DE-F2B8-A3F3E238B876">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:50:10 UTC</createdTime>
+<generatorID>400650DB-5128-CF36-89DA-6B3AFD24F67A</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6ACBEA69-DBCD-E853-55D2-01DED1947DD5" referredColumn="25BEC59E-D7F0-FE20-6471-EC3CF6FDA669"/>
 </associations>
 </Column>
 </columns>
@@ -86,28 +110,6 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
-<ind_PK_UK id="9C190F6C-D483-90F9-8C4D-315E9F6798C3" name="Details_Serie_Staffel_FK">
-<createdBy>Philipp</createdBy>
-<createdTime>2021-01-20 16:46:06 UTC</createdTime>
-<generatorID>1BCC1132-DFBC-A3EE-8660-47E8EAF65A6C</generatorID>
-<ownerDesignName>Serien</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="48DC8BFA-E0DF-2A59-28A9-437470616001"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F4DC562A-D11A-0B1E-47CE-402DDB81F1DE" name="Details_Serie_Episode_FK">
-<createdBy>Philipp</createdBy>
-<createdTime>2021-01-20 16:46:06 UTC</createdTime>
-<generatorID>DCDAA3E9-6388-9753-A727-5167363612B1</generatorID>
-<ownerDesignName>Serien</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="879DD0E9-D280-AD87-1750-C7D506395610"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="4CB7D73F-69B6-E8BF-85BB-EA3B43AF823D" name="Details_Serie_Serie_FK">
 <createdBy>Philipp</createdBy>
 <createdTime>2021-01-20 16:46:06 UTC</createdTime>
@@ -117,6 +119,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4D06DA8F-252D-786B-B88C-D298470C0E65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35225C5E-F51B-5D5B-FA40-5E2CFEF6C98D" name="Details_Serie_Staffel_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:50:10 UTC</createdTime>
+<generatorID>1DA6E12D-B864-7F9F-BBA5-72FE190AF6D3</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D12A28AA-4C75-DC88-E50B-CDCB85631474"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4FA5B27-220B-721A-C26A-E5594D8E9E41" name="Details_Serie_Episode_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:50:10 UTC</createdTime>
+<generatorID>02302B85-09F8-01EA-D5B5-982F2A781900</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FB36EBA-D8E2-79DE-F2B8-A3F3E238B876"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

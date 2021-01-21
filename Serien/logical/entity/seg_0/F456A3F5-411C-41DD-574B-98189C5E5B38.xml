@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="100649A4-4833-B62F-9646-0DE69EA7E553" name="Staffel">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F456A3F5-411C-41DD-574B-98189C5E5B38" name="Episode">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-20 16:39:36 UTC</createdTime>
+<createdTime>2021-01-21 11:47:48 UTC</createdTime>
 <ownerDesignName>Serien</ownerDesignName>
 <engineerTo>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="3B302C24-68E1-5661-ECEF-2BA37EEA2FA6">
+<Attribute name="ID" id="4516E7EC-B3AD-D634-4000-711BCA2C3C13">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-20 16:40:29 UTC</createdTime>
+<createdTime>2021-01-21 11:48:40 UTC</createdTime>
 <ownerDesignName>Serien</ownerDesignName>
 <engineerTo>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
@@ -29,16 +29,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8519D4CC-5D28-2DBE-5D39-6FBE238A07C8" name="Staffel PK">
+<identifier id="873C1A49-31CD-7726-8324-872C5149518D" name="Episode PK">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-21 11:33:39 UTC</createdTime>
+<createdTime>2021-01-21 11:48:42 UTC</createdTime>
 <ownerDesignName>Serien</ownerDesignName>
 <engineerTo>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3B302C24-68E1-5661-ECEF-2BA37EEA2FA6</attributeRef>
+<attributeRef>4516E7EC-B3AD-D634-4000-711BCA2C3C13</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

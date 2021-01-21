@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F0BC1DA-F542-0A85-D8D7-82E4D959B644" name="Staffel">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:50:10 UTC</createdTime>
+<generatorID>5E5B93BC-026D-85D1-B3DE-E5DD8275C332</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="30BE37C5-1FFA-7BF5-BD1A-BBD278AAE5D2">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:50:10 UTC</createdTime>
+<generatorID>BD988173-FFDF-AA5B-D6E3-411F17BB8349</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F43BEA73-D29F-DE02-6173-9B5F515D37E9" name="Staffel_PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:50:10 UTC</createdTime>
+<generatorID>91D84191-2525-34CE-692F-48EE02DB7C99</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30BE37C5-1FFA-7BF5-BD1A-BBD278AAE5D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

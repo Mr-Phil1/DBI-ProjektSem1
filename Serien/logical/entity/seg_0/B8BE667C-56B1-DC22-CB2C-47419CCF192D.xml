@@ -29,29 +29,29 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID" id="3619E022-94EC-1592-71FB-DFDD04C88ECF">
+<Attribute name="ID" id="ABE77706-ADD7-9387-AEDB-7F999B7AFD23">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-21 11:36:19 UTC</createdTime>
-<generatorID>4DD50EE1-8BA3-779F-7234-1EA0F8E9A28B</generatorID>
+<createdTime>2021-01-21 11:48:53 UTC</createdTime>
+<generatorID>1DA6E12D-B864-7F9F-BBA5-72FE190AF6D3</generatorID>
 <ownerDesignName>Serien</ownerDesignName>
 <engineerTo>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
-<referedAttribute>605E1B36-EE5E-8405-7868-178C0F29F309</referedAttribute>
+<referedAttribute>BD988173-FFDF-AA5B-D6E3-411F17BB8349</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="ABF1C20D-6CC1-CE9D-0903-9B7CF4B56567">
+<Attribute name="ID1" id="400650DB-5128-CF36-89DA-6B3AFD24F67A">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-21 11:36:29 UTC</createdTime>
-<generatorID>64D2F2DB-D139-C7DD-C0D0-D9B35F4D790E</generatorID>
+<createdTime>2021-01-21 11:49:00 UTC</createdTime>
+<generatorID>02302B85-09F8-01EA-D5B5-982F2A781900</generatorID>
 <ownerDesignName>Serien</ownerDesignName>
 <engineerTo>
 <item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
 </engineerTo>
-<referedAttribute>3B302C24-68E1-5661-ECEF-2BA37EEA2FA6</referedAttribute>
+<referedAttribute>4516E7EC-B3AD-D634-4000-711BCA2C3C13</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
