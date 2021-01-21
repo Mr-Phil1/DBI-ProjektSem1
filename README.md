@@ -43,7 +43,7 @@ Eine Person kann gleichzeit **Schauspieler**, **Regisseur** und **Produzent** se
 Da es sich in diesem Projekt um eine persönliche Filmsammlung handelt, haben wir zudem eine Entität **Verleihhistorie** und eine Entität **Person** eingebaut.
 Diese beiden stehen zusammen mit der Entität **Film** in einer Beziehung. Dies ermöglicht den Nutzer auf einen Blick zu sehen, wer wann welchen Film ausgeliehen hat.  
 Mit Hilfe der Barred Relationship sichern wir zusätzlich ab, dass ein Film nur einmal pro bestimmten Datum ausgeliehen werden kann. Der Grund dafür ist, dass es sich um eine persönliche Filmsammlung handelt und ein Film nur einmal vorhanden ist.  
-Auf Grund der Einschränkung des ER-Modells auf den Bereich der Speicherung von Filmen, haben wir uns dazu entschiden ein weiteres ER-Diagrammm, speziell für Serien, zu gestallten. Die Umsetzung erfolgte mit Hilfe der beiden Entitäten **Staffel** und **Episode**. Diese werden durch die Intersection **Details_Serie** mit der Entität **Serie** verknüpft.
+Auf Grund der Einschränkung des ER-Modells auf den Bereich der Speicherung von Filmen, haben wir uns dazu entschieden ein weiteres ER-Diagrammm, speziell für Serien, zu gestallten. Die Umsetzung erfolgte mit Hilfe der beiden Entitäten **Staffel** und **Episode**. Diese werden durch die Intersection **Details_Serie** mit der Entität **Serie** verknüpft.
 
 </br>
 
