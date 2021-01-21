@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09AD42D2-F57A-1924-5369-9783ACC29DDD" name="Relation_24">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sprache_ID" id="F16935C4-BCFC-8A83-562D-2B582025A2EA">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0304535B-85CF-E22E-004A-C0C128FC857A" referredColumn="AC3745B7-1F9A-F133-D983-6B68FB2C7900"/>
+</associations>
+</Column>
+<Column name="Serie_ID_Serie" id="7DD41D44-AB2F-5B9A-6800-0867FEDDDC90">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A77A11BA-6488-AACB-A5F0-2FBFBA78AE43" referredColumn="B6CFEC20-210F-349F-CB61-19F05976FA09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1D1D4BA-A4B3-1E54-8F83-F26E9290B4C3" name="Relation_24_PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F16935C4-BCFC-8A83-562D-2B582025A2EA"/>
+<colUsage columnID="7DD41D44-AB2F-5B9A-6800-0867FEDDDC90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2AB8721-EEE7-F9A0-4480-44457CF430EA" name="Relation_24_Sprache_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<generatorID>E76F85CB-1547-D62B-489D-5E293B232779</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F16935C4-BCFC-8A83-562D-2B582025A2EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBB53EA7-704A-1EFC-4CD0-53DC955D11B0" name="Relation_24_Serie_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<generatorID>E76F85CB-1547-D62B-489D-5E293B232779</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DD41D44-AB2F-5B9A-6800-0867FEDDDC90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

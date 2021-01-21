@@ -27,14 +27,56 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_Serie" id="7F0C8575-0A9A-2756-7F53-141FA7BF5138">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:34:29 UTC</createdTime>
+<generatorID>01F47715-7ED4-FA17-AB36-727A88377113</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<referedAttribute>752B78F6-9D9C-ED4E-4A87-EB939F156940</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="B5C0B376-2B0C-6FEC-4E45-0E95C4DB5700">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:35:05 UTC</createdTime>
+<generatorID>36323DF2-B97E-2888-54D0-285A948F692D</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<referedAttribute>BD988173-FFDF-AA5B-D6E3-411F17BB8349</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="7EEBB695-3A8F-8692-6E30-14389EF8296F">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:35:57 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="873C1A49-31CD-7726-8324-872C5149518D" name="Episode PK">
 <createdBy>Philipp</createdBy>
 <createdTime>2021-01-21 11:48:42 UTC</createdTime>
 <ownerDesignName>Serien</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

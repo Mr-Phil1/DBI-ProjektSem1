@@ -19,6 +19,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Title" id="D761863F-0D3D-CBA9-C05C-68A5AC15D9E1">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:36:48 UTC</createdTime>
+<generatorID>A455B598-6566-84DF-9926-10799FE1D9F1</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F43BEA73-D29F-DE02-6173-9B5F515D37E9" name="Staffel_PK">

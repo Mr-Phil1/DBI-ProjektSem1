@@ -27,14 +27,29 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Title" id="A455B598-6566-84DF-9926-10799FE1D9F1">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:36:12 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="91D84191-2525-34CE-692F-48EE02DB7C99" name="Staffel PK">
 <createdBy>Philipp</createdBy>
 <createdTime>2021-01-21 11:48:36 UTC</createdTime>
 <ownerDesignName>Serien</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

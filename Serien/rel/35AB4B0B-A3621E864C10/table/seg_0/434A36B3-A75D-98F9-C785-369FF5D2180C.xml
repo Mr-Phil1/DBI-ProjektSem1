@@ -33,9 +33,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Vorname" id="12B4B633-DF8B-8C47-7597-987A752CA860">
+<Column name="Vorname" id="11FB268F-F231-B7FD-FB4E-45F565DFA175">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-21 11:50:10 UTC</createdTime>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
 <generatorID>73407E9E-D9A3-D4AE-26CC-6819CFF80725</generatorID>
 <ownerDesignName>Serien</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,9 +45,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Mittelname" id="B9BEDFF7-73D4-E10E-2297-3560C5205FCB">
+<Column name="Mittelname" id="63AEA1EF-A948-EE87-0F9F-666132D1951E">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-21 11:50:10 UTC</createdTime>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
 <generatorID>65E081A8-B3E3-35F5-F8D4-5D2106EF3E48</generatorID>
 <ownerDesignName>Serien</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -58,9 +58,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nachname" id="1BE5D362-9AF4-1123-ED9B-0A6CBED55606">
+<Column name="Nachname" id="EC5260A4-B54D-D699-AED3-A2C9A3BAADD9">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-21 11:50:10 UTC</createdTime>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
 <generatorID>938E2FF8-9D66-583D-2A22-1D36E743C75E</generatorID>
 <ownerDesignName>Serien</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,9 +70,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Herkunftsland" id="156ACD50-80DE-CFA1-4F26-9AD6D46FE10F">
+<Column name="Herkunftsland" id="ED609832-9FDD-9AE4-730E-37F8C8172E50">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-21 11:50:10 UTC</createdTime>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
 <generatorID>FA4D9593-B716-4239-9264-BD7C95D5D5AB</generatorID>
 <ownerDesignName>Serien</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>

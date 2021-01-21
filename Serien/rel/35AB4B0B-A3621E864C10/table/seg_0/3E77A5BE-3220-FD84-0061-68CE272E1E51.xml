@@ -19,6 +19,48 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Serie_ID_Serie" id="445E6EDC-62CC-FE49-DB65-4DB7CD99BA15">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:36:48 UTC</createdTime>
+<generatorID>7F0C8575-0A9A-2756-7F53-141FA7BF5138</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D86D6E65-094C-A054-E270-DC7DF4E02F36" referredColumn="B6CFEC20-210F-349F-CB61-19F05976FA09"/>
+</associations>
+</Column>
+<Column name="Staffel_ID" id="F6E79B6B-9EEF-3572-7424-AB2B25892EF9">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:36:48 UTC</createdTime>
+<generatorID>B5C0B376-2B0C-6FEC-4E45-0E95C4DB5700</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69FDAD30-03A6-BE12-216F-0C2D12803C67" referredColumn="30BE37C5-1FFA-7BF5-BD1A-BBD278AAE5D2"/>
+</associations>
+</Column>
+<Column name="Title" id="4D069FFA-3FFC-DDB0-1938-FEA4DE07A1DD">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:36:48 UTC</createdTime>
+<generatorID>7EEBB695-3A8F-8692-6E30-14389EF8296F</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B789A313-BE11-B773-C5EA-59DECE119C53" name="Episode_PK">
@@ -31,6 +73,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="25BEC59E-D7F0-FE20-6471-EC3CF6FDA669"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE150DA5-DAC7-EB9B-BE55-6E217CC72D1B" name="Episode_Serie_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:36:48 UTC</createdTime>
+<generatorID>01F47715-7ED4-FA17-AB36-727A88377113</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="445E6EDC-62CC-FE49-DB65-4DB7CD99BA15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2F7DA5D-09E5-2386-C9B2-A792E8C252FE" name="Episode_Staffel_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:36:48 UTC</createdTime>
+<generatorID>36323DF2-B97E-2888-54D0-285A948F692D</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6E79B6B-9EEF-3572-7424-AB2B25892EF9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

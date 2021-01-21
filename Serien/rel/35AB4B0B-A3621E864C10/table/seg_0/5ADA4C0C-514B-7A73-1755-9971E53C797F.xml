@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5ADA4C0C-514B-7A73-1755-9971E53C797F" name="Relation_27">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Medium_ID" id="944984A8-520C-3C82-BFCD-F9360EEC1649">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:15 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC6323C6-999C-78A5-D9AA-DC4320701533" referredColumn="2FB58741-387A-6EA4-36DB-A1CCE765C4CA"/>
+</associations>
+</Column>
+<Column name="Serie_ID_Serie" id="68797DF0-6C8F-6F60-1B8A-66A3D4E0BB72">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:15 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFA1BFDC-C9C3-797E-06DC-A2AC9B62E007" referredColumn="B6CFEC20-210F-349F-CB61-19F05976FA09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9D041D7-0E54-5C0B-5990-8FB69D06C403" name="Relation_27_PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="944984A8-520C-3C82-BFCD-F9360EEC1649"/>
+<colUsage columnID="68797DF0-6C8F-6F60-1B8A-66A3D4E0BB72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D18D253A-47D2-4B13-BD0B-53E0E6603576" name="Relation_27_Medium_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<generatorID>96863196-6858-7975-EE64-FFB3277B2DBC</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="944984A8-520C-3C82-BFCD-F9360EEC1649"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF60CDD0-84FA-31AA-EFC7-D31138E3DBA7" name="Relation_27_Serie_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:15 UTC</createdTime>
+<generatorID>96863196-6858-7975-EE64-FFB3277B2DBC</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68797DF0-6C8F-6F60-1B8A-66A3D4E0BB72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

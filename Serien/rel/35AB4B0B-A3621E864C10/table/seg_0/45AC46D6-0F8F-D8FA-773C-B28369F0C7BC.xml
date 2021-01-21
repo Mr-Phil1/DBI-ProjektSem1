@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45AC46D6-0F8F-D8FA-773C-B28369F0C7BC" name="Relation_23">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Genre_ID" id="63E13EA8-B7CB-FFA0-A1F8-EEE68FE71DE2">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46092490-D79C-C92F-3C10-E893DE81AE89" referredColumn="A462B29C-0564-3D52-9416-CA2AA3458FC3"/>
+</associations>
+</Column>
+<Column name="Serie_ID_Serie" id="10DDC8E9-7762-17F3-A756-F706B81C864C">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="649B2632-25CF-CD43-E604-257459492CE4" referredColumn="B6CFEC20-210F-349F-CB61-19F05976FA09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BF44A9A-4417-C3B8-2161-39784D24961E" name="Relation_23_PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63E13EA8-B7CB-FFA0-A1F8-EEE68FE71DE2"/>
+<colUsage columnID="10DDC8E9-7762-17F3-A756-F706B81C864C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1305099B-3F27-E87A-8984-77C0014B298E" name="Relation_23_Genre_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<generatorID>4189C972-6A08-DCF3-6BB0-ADAFB6633C51</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63E13EA8-B7CB-FFA0-A1F8-EEE68FE71DE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F367127C-F28C-F657-D83E-BEE6ADA1DBEF" name="Relation_23_Serie_FK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<generatorID>4189C972-6A08-DCF3-6BB0-ADAFB6633C51</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10DDC8E9-7762-17F3-A756-F706B81C864C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

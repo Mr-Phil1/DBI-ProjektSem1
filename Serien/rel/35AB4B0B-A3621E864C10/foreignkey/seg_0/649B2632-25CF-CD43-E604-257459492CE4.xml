@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50B53C85-B73E-BAE7-5CA0-5FFA93582C51" containerWithKeyObject="81868656-2446-59ED-D339-B8D8D2C0B422" localFKIndex="4CB7D73F-69B6-E8BF-85BB-EA3B43AF823D" name="Details_Serie_Serie_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="649B2632-25CF-CD43-E604-257459492CE4" containerWithKeyObject="45AC46D6-0F8F-D8FA-773C-B28369F0C7BC" localFKIndex="F367127C-F28C-F657-D83E-BEE6ADA1DBEF" name="Relation_23_Serie_FK">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-20 16:46:06 UTC</createdTime>
-<generatorID>FFBA09C2-AB4C-FB8B-B6C2-4539FF5E220B</generatorID>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<generatorID>4189C972-6A08-DCF3-6BB0-ADAFB6633C51</generatorID>
 <ownerDesignName>Serien</ownerDesignName>
 <referredTableLongName>Serie</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

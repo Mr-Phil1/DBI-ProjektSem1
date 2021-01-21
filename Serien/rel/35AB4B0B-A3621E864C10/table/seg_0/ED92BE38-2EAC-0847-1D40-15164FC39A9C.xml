@@ -72,6 +72,20 @@
 <colAssociation fkAssociation="096E5B3E-54EF-47B3-EC01-DA7F0EC751D2" referredColumn="B6CFEC20-210F-349F-CB61-19F05976FA09"/>
 </associations>
 </Column>
+<Column name="Person_ID1" id="449C0224-B3BF-B8D5-D2D4-51EDF1CED5A0">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:37:14 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E25E75C-3E57-01EE-7273-43111CAECAB8" referredColumn="1EC6057D-D65B-CFD5-F6F9-1CB938900134"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="6F9812E3-8877-B4A7-53D4-919066D925E0" name="Verleihhistorie_PK">
@@ -107,6 +121,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="35333420-D486-2CD3-8864-F494F0E036E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE2A9266-0D18-5BFE-0622-C220E6F2A68A" name="Verleihhistorie_Person_FKv1">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 13:36:48 UTC</createdTime>
+<generatorID>501FC4DE-1E43-D684-7557-0B35C21466B3</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="449C0224-B3BF-B8D5-D2D4-51EDF1CED5A0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

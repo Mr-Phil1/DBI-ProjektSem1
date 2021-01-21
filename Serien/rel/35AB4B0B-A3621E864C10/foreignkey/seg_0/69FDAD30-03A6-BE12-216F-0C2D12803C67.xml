@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0815084E-210A-B3F9-AA54-C01C212325FF" containerWithKeyObject="81868656-2446-59ED-D339-B8D8D2C0B422" localFKIndex="35225C5E-F51B-5D5B-FA40-5E2CFEF6C98D" name="Details_Serie_Staffel_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69FDAD30-03A6-BE12-216F-0C2D12803C67" containerWithKeyObject="3E77A5BE-3220-FD84-0061-68CE272E1E51" localFKIndex="C2F7DA5D-09E5-2386-C9B2-A792E8C252FE" name="Episode_Staffel_FK">
 <createdBy>Philipp</createdBy>
-<createdTime>2021-01-21 11:50:10 UTC</createdTime>
-<generatorID>1DA6E12D-B864-7F9F-BBA5-72FE190AF6D3</generatorID>
+<createdTime>2021-01-21 13:36:48 UTC</createdTime>
+<generatorID>36323DF2-B97E-2888-54D0-285A948F692D</generatorID>
 <ownerDesignName>Serien</ownerDesignName>
 <referredTableLongName>Staffel</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
