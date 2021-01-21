@@ -70,6 +70,6 @@ Auf Grund der Einschränkung des ER-Modells auf den Bereich der Speicherung von 
   * [Normalisierung (Datenbank)](https://de.wikipedia.org/wiki/Normalisierung_(Datenbank))  
 * Die Projek-Dateien (als ZIP-Files):
   * [Filme](https://github.com/Mr-Phil1/DBI-ProjektSem1/blob/main/zip/Filme.zip)
-  * [Serien](https://github.com/Mr-Phil1/DBI-ProjektSem1/blob/main/zip/Serie.zip)
+  * [Serien](https://github.com/Mr-Phil1/DBI-ProjektSem1/blob/main/zip/Serien.zip)
 ---
 Copyright (c) 2021 Copyright [mr-phil1](https://github.com/Mr-Phil1) + [Vercetti90](https://gist.github.com/Vercetti90) All Rights Reserved.
