@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Film_ID_Film" id="F4DB753E-AC2D-216D-E37E-9C4244BC5074">
+<Column name="Serie_ID_Serie" id="F4DB753E-AC2D-216D-E37E-9C4244BC5074">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-20 15:57:44 UTC</createdTime>
 <generatorID>816403B6-0A7F-268A-E964-14553EF80DCA</generatorID>
@@ -40,7 +40,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6D4CAAC4-C645-973B-1238-5F8721017D2C" name="Details_Medium_Film_FK">
+<ind_PK_UK id="6D4CAAC4-C645-973B-1238-5F8721017D2C" name="Details_Medium_Serie_FK">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-20 15:57:44 UTC</createdTime>
 <generatorID>769A5E82-ADFE-EE3B-AB40-B2DFE04F9511</generatorID>

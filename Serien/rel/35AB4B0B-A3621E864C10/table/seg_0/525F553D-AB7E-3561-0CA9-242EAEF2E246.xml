@@ -23,7 +23,7 @@
 <colAssociation fkAssociation="CE6CD3BD-BAAB-647E-DC26-9759D52AB8F8" referredColumn="A462B29C-0564-3D52-9416-CA2AA3458FC3"/>
 </associations>
 </Column>
-<Column name="Film_ID_Film" id="18F1D7D3-3432-B651-B873-C39DB266A382">
+<Column name="Serie_ID_Serie" id="18F1D7D3-3432-B651-B873-C39DB266A382">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-20 15:57:44 UTC</createdTime>
 <generatorID>40E80E1E-C64C-7AD0-4D86-CF45BF0A9B88</generatorID>
@@ -51,7 +51,7 @@
 <colUsage columnID="DC347AED-595E-C46F-841C-E530A7868D8B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="05CA5905-3D20-3DBE-331B-5797A71196C5" name="Details_Genre_Film_FK">
+<ind_PK_UK id="05CA5905-3D20-3DBE-331B-5797A71196C5" name="Details_Genre_Serie_FK">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-20 15:57:44 UTC</createdTime>
 <generatorID>F5E8C5F1-2429-9DCB-6E2C-9AAC57B40CCD</generatorID>

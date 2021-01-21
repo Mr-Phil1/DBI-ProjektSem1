@@ -139,7 +139,7 @@
 <colUsage columnID="B6CFEC20-210F-349F-CB61-19F05976FA09"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7B9F9C77-D35D-4D85-FFF4-C159A2EC87F6" name="Film_Jahr_FK">
+<ind_PK_UK id="7B9F9C77-D35D-4D85-FFF4-C159A2EC87F6" name="Serie_Jahr_FK">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-17 12:54:50 UTC</createdTime>
 <generatorID>3ACD52B9-4A1A-7C08-FFEC-D8A934710566</generatorID>
@@ -150,7 +150,7 @@
 <colUsage columnID="085EE038-1851-93DD-B6B8-49376EEA1CDD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DEFA12D6-F2D2-D4C0-89B2-955AC1147643" name="Film_IMDB_FK">
+<ind_PK_UK id="DEFA12D6-F2D2-D4C0-89B2-955AC1147643" name="Serie_IMDB_FK">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-17 12:54:50 UTC</createdTime>
 <generatorID>0ACB97F0-860A-9D78-2A8E-334DD65B2CB9</generatorID>
@@ -161,7 +161,7 @@
 <colUsage columnID="A4BA1074-8ABF-1BC2-032A-7D3839F6015C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6A9A6641-E0CC-45D1-100F-C11435382C59" name="Film_Dauer_FK">
+<ind_PK_UK id="6A9A6641-E0CC-45D1-100F-C11435382C59" name="Serie_Dauer_FK">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-17 12:54:50 UTC</createdTime>
 <generatorID>C57F6DD3-0A03-B2B8-EE46-B224CC5D996A</generatorID>

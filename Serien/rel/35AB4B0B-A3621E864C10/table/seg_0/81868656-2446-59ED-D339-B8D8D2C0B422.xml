@@ -33,9 +33,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4D7108DE-8A90-11E6-D46D-32A06CB52729" referredColumn="FE9212AA-9B28-E62E-123A-10129C28FAB7"/>
-</associations>
 </Column>
 <Column name="Episode_Episode_ID" id="E4634F24-CBB2-A609-9DEF-29FFF9CF4BC6">
 <createdBy>Philipp</createdBy>
@@ -47,8 +44,35 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="879DD0E9-D280-AD87-1750-C7D506395610">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:35:41 UTC</createdTime>
+<generatorID>6ED24681-211B-B11C-03E9-C847D1E78E8F</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="880833EE-371A-876B-E1F4-248FB35E12DE" referredColumn="DDE092E7-91C9-4117-FF4B-B544AC5E82B0"/>
+<colAssociation fkAssociation="880833EE-371A-876B-E1F4-248FB35E12DE" referredColumn="D195EBB2-4EE3-768B-A9C1-46F81BBBCD90"/>
+</associations>
+</Column>
+<Column name="ID1" id="48DC8BFA-E0DF-2A59-28A9-437470616001">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:35:41 UTC</createdTime>
+<generatorID>21A58FB3-BF0D-CC3B-FB24-575E108CC23B</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D7108DE-8A90-11E6-D46D-32A06CB52729" referredColumn="A0E43FD4-589A-6911-86C0-23D4C556E0AF"/>
 </associations>
 </Column>
 </columns>
@@ -70,7 +94,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F154FCE9-04F7-7836-A762-FCA33F1B5991"/>
+<colUsage columnID="48DC8BFA-E0DF-2A59-28A9-437470616001"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F4DC562A-D11A-0B1E-47CE-402DDB81F1DE" name="Details_Serie_Episode_FK">
@@ -81,7 +105,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E4634F24-CBB2-A609-9DEF-29FFF9CF4BC6"/>
+<colUsage columnID="879DD0E9-D280-AD87-1750-C7D506395610"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="4CB7D73F-69B6-E8BF-85BB-EA3B43AF823D" name="Details_Serie_Serie_FK">

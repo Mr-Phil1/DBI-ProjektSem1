@@ -28,4 +28,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C23C16D-A490-F5E1-FEAD-66C2849DD2E5" name="Episode PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:33:35 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>605E1B36-EE5E-8405-7868-178C0F29F309</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

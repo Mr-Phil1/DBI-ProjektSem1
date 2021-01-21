@@ -29,14 +29,43 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID" id="3619E022-94EC-1592-71FB-DFDD04C88ECF">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:36:19 UTC</createdTime>
+<generatorID>4DD50EE1-8BA3-779F-7234-1EA0F8E9A28B</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<referedAttribute>605E1B36-EE5E-8405-7868-178C0F29F309</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="ABF1C20D-6CC1-CE9D-0903-9B7CF4B56567">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:36:29 UTC</createdTime>
+<generatorID>64D2F2DB-D139-C7DD-C0D0-D9B35F4D790E</generatorID>
+<ownerDesignName>Serien</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<referedAttribute>3B302C24-68E1-5661-ECEF-2BA37EEA2FA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F4EF82F3-AEDE-C963-201C-7B94FC2916DC" name="Details_Serie PK">
 <createdBy>Philipp</createdBy>
 <createdTime>2021-01-20 16:40:24 UTC</createdTime>
 <ownerDesignName>Serien</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="false"/>
 </engineerTo>
 <pk>true</pk>
 </identifier>

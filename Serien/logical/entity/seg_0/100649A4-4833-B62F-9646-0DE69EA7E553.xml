@@ -28,4 +28,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8519D4CC-5D28-2DBE-5D39-6FBE238A07C8" name="Staffel PK">
+<createdBy>Philipp</createdBy>
+<createdTime>2021-01-21 11:33:39 UTC</createdTime>
+<ownerDesignName>Serien</ownerDesignName>
+<engineerTo>
+<item key="35AB4B0B-898C-C36D-4B78-A3621E864C10" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B302C24-68E1-5661-ECEF-2BA37EEA2FA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

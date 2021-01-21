@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C7D53C6-520C-53A8-6160-C4556353D23E" containerWithKeyObject="8EBEA950-CACC-8986-87BC-BAF6F880A32B" localFKIndex="6A9A6641-E0CC-45D1-100F-C11435382C59" name="Film_Dauer_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C7D53C6-520C-53A8-6160-C4556353D23E" containerWithKeyObject="8EBEA950-CACC-8986-87BC-BAF6F880A32B" localFKIndex="6A9A6641-E0CC-45D1-100F-C11435382C59" name="Serie_Dauer_FK">
 <createdBy>tommy</createdBy>
 <createdTime>2021-01-17 12:54:50 UTC</createdTime>
 <generatorID>C57F6DD3-0A03-B2B8-EE46-B224CC5D996A</generatorID>
