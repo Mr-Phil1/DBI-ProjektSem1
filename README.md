@@ -41,6 +41,7 @@ Es besteht die Möglichkeit, einen Film, je nach verwendeteten **Medium ( z.B.: 
 Desweiteren können die Filme nach **Länge**, **Sprache**, **Jahr** oder **Genre** unterteilt werden.
 
 Eine Besonderheit stellt die Entität **IMDB** dar. Dies ermöglicht den Nutzer, Filme nach Bewertung zu speichern bzw. auszuwählen.  
+  
 Unter anderem werden Supertyps bzw. Subtypes in der Entität **Filmstar** verwendet. Dies hat folgenden Hintergrund. Eine Person kann gleichzeit **Schauspieler**, **Regisseur** und **Produzent** sein (z.B.: Denzel Washington).
 
 Da es sich in diesem Projekt um eine persönliche Filmsammlung handelt, haben wir zudem eine Entität **Verleihhistorie** und eine Entität **Person** eingebaut.
